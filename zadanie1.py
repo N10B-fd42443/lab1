@@ -1,0 +1,10 @@
+x = input("Wprowadz pierwsza liczbe: ")
+y = input("Wprowadz druga liczba: ")
+z = input("Wprowadz trzecia liczbe: ")
+c = (x,y,z)
+
+s = sorted(c)
+print(s)
+print(x+y+z)
+print(min(c))
+print(max(c))
